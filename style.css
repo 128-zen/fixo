@@ -1840,6 +1840,18 @@ ul {
   margin-bottom: 30px;
 }
 
+.quick-links__item svg path {
+  fill: $light_text_color;
+}
+
+.quick-links__item svg rect:first-of-type {
+  fill: $background_secondary_color;
+}
+
+.quick-links__item svg rect:last-of-type {
+  stroke: $background_primary_color;
+}
+
 .quick-links__item div a {
   position: absolute;
   font-size: 18pxß;
