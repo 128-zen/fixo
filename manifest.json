@@ -1,7 +1,7 @@
 {
   "name": "Fixo 128",
   "author": "128zen",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -83,7 +83,7 @@
           "type": "color",
           "description": "Choose the color for borders",
           "label": "Border Color",
-          "value": "#8D9AA6"
+          "value": "#AFB9C2"
         }
       ]
     },
@@ -961,6 +961,61 @@
           "description": "Enter answer",
           "label": "Item 8 Answer",
           "value": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, similique."
+        }
+      ]
+    },
+    {
+      "label": "Homepage Partners Section",
+      "variables": [
+        {
+          "identifier": "show_partners",
+          "type": "checkbox",
+          "description": "Show section",
+          "label": "Toggle Section",
+          "value": true
+        },
+        {
+          "identifier": "partners_description",
+          "type": "text",
+          "description": "Enter section description",
+          "label": "Section Description",
+          "value": "Trusted by 3000+ partners & customers"
+        },
+        {
+          "identifier": "partners_item1_img",
+          "type": "file",
+          "description": "Insert image",
+          "label": "Item 1 Image"
+        },
+        {
+          "identifier": "partners_item2_img",
+          "type": "file",
+          "description": "Insert image",
+          "label": "Item 2 Image"
+        },
+        {
+          "identifier": "partners_item3_img",
+          "type": "file",
+          "description": "Insert image",
+          "label": "Item 3 Image"
+        },
+        {
+          "identifier": "partners_item4_img",
+          "type": "file",
+          "description": "Insert image",
+          "label": "Item 4 Image"
+        },
+        {
+          "identifier": "partners_item5_img",
+          "type": "file",
+          "description": "Insert image",
+          "label": "Item 5 Image"
+        },
+        {
+          "identifier": "partners_item6_img",
+          "type": "file",
+          "description": "Insert image",
+          "label": "Item 6 Image"
         }
       ]
     },
