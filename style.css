@@ -1977,7 +1977,7 @@ ul {
   width: calc(33.3% - 20px);
   padding: 30px;
   gap: 40px;
-  background-color: $background_primary_color;
+  border-radius: 15px;
 }
 
 .category-details__section > a {
@@ -1991,7 +1991,8 @@ ul {
 .category-details__section > svg {
   position: absolute;
   right: 0;
-  bottom: 0;
+  top: 0;
+  width: 100%;
 }
 
 .category-details__item ul {
@@ -2143,13 +2144,13 @@ ul {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 60px;
+  gap: 30px;
   flex-wrap: wrap;
 }
 
 .videos__item{
   max-width: 370px;
-  width: calc(33.3% - 40px);
+  width: calc(33.3% - 20px);
   position: relative;
   padding: 15px;
   border-radius: 10px;
@@ -2203,9 +2204,6 @@ ul {
   fill: $headings_primary;
 }
 
-.videos__img:hover{
-  opacity: .8;
-}
 
 .videos__img:hover rect{
   fill: $primary_button_color;
