@@ -2336,7 +2336,15 @@ ul {
 }
 
 .faq__item.open svg {
-  transform: rotate(135deg);
+  transform: rotate(90deg);
+}
+
+.faq__item.open h6 {
+  color: $light_text_color;
+}
+
+.faq__item.open p {
+  color: $body_secondary;
 }
 
 .faq__item svg path {
