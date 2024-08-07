@@ -1068,17 +1068,18 @@ ul {
   z-index: 3;
   max-width: 1170px;
   margin: -240px 15px 0;
-  padding: 60px;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  border-radius: 15px;
 }
 
 .submit-request .container > div {
   position: relative;
   overflow: hidden;
+  padding: 60px;
+  border-radius: 15px;
 }
 
 .submit-request .container div div, .submit-request h2, .submit-request p {
@@ -1090,8 +1091,8 @@ ul {
 .submit-request .container > div svg {
   position: absolute;
   right: 0;
-  bottom: 0;
-  height: 100%;
+  top: 0;
+  height: auto;
   width: 100%;
 }
 
@@ -1129,10 +1130,11 @@ ul {
 @media (max-width: 1023px) {
   .submit-request .container > div svg {
     width: auto;
+    height: 100%;
   }
 }
 @media (max-width: 767px) {
-  .submit-request .container {
+  .submit-request .container > div {
     padding: 40px;
   }
 }
