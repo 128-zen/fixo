@@ -1067,7 +1067,6 @@ ul {
   position: relative;
   z-index: 3;
   max-width: 1170px;
-  overflow: hidden;
   margin: -240px 15px 0;
   padding: 60px;
   display: flex;
@@ -1077,12 +1076,18 @@ ul {
   border-radius: 15px;
 }
 
-.submit-request .container div, .submit-request h2, .submit-request p {
+.submit-request .container > div {
+  position: relative;
+  overflow: hidden;
+}
+
+.submit-request .container div div, .submit-request h2, .submit-request p {
   position: relative;
   z-index: 4;
 }
 
-.submit-request svg {
+
+.submit-request .container > div svg {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -1090,7 +1095,8 @@ ul {
   width: 100%;
 }
 
-.submit-request svg:nth-of-type(2) {
+.submit-request .container > svg {
+  position: absolute;
   left: 50%;
   right: auto;
   height: auto;
@@ -1099,19 +1105,9 @@ ul {
   width: 98%;
 }
 
-.submit-request svg:nth-of-type(3) {
-  left: 50%;
-  right: auto;
-  height: auto;
+.submit-request .container > svg:last-of-type {
   top: -50px;
-  transform: translateX(-50%);
   width: 96%;
-}
-
-
-.submit-request svg > g g path:last-of-type {
-  stroke: $border_color;
-  fill: none;
 }
 
 
@@ -1131,17 +1127,13 @@ ul {
 }
 
 @media (max-width: 1023px) {
-  .submit-request svg {
+  .submit-request .container > div svg {
     width: auto;
   }
 }
 @media (max-width: 767px) {
   .submit-request .container {
     padding: 40px;
-  }
-  .submit-request svg {
-    width: auto;
-    left: auto;
   }
 }
 
