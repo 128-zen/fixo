@@ -1981,6 +1981,18 @@ ul {
   overflow: hidden;
 }
 
+.category-details__section > div a {
+  color: $light_text_color;
+}
+
+.category-details__item li a {
+  color: $body_secondary;
+}
+
+.category-details__section > div a:hover, .category-details__item li a:hover {
+  color: $hover_link_color;
+}
+
 .category-details__section > a {
   width: fit-content;
   background-color: $body_background_color;
@@ -1995,6 +2007,7 @@ ul {
   right: 0;
   top: 0;
   height: 100%;
+  width: auto;
   z-index: -1;
 }
 
