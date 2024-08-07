@@ -1,7 +1,7 @@
 {
   "name": "Fixo 128",
   "author": "128zen",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -560,18 +560,6 @@
       ]
     },
     {
-      "label": "Homepage Categories Section",
-      "variables": [
-        {
-          "identifier": "show_categories_section",
-          "type": "checkbox",
-          "description": "Show section",
-          "label": "Toggle Section",
-          "value": true
-        }
-      ]
-    },
-    {
       "label": "Homepage Quick Links Section",
       "variables": [
         {
@@ -600,21 +588,21 @@
           "type": "text",
           "description": "Enter heading",
           "label": "Item 1 Heading",
-          "value": "Documentation"
+          "value": "Grow with working capital"
         },
         {
           "identifier": "quick_links_item1_text",
           "type": "text",
           "description": "Enter text",
           "label": "Item 1 Text",
-          "value": "Professionally cultivate one-to-one find customer service with robust ideas."
+          "value": "Learn about our powerful theming framework, designed to create beautiful and unique."
         },
         {
           "identifier": "quick_links_item1_link_text",
           "type": "text",
           "description": "Enter text",
           "label": "Item 1 Link Text",
-          "value": "Go to help page"
+          "value": "Learn more"
         },
         {
           "identifier": "quick_links_item1_link",
@@ -628,27 +616,55 @@
           "type": "text",
           "description": "Enter heading",
           "label": "Item 2 Heading",
-          "value": "Live chat"
+          "value": "Grow with working capital"
         },
         {
           "identifier": "quick_links_item2_text",
           "type": "text",
           "description": "Enter text",
           "label": "Item 2 Text",
-          "value": "Professionally cultivate one-to-one find customer service with robust ideas."
+          "value": "Learn about our powerful theming framework, designed to create beautiful and unique."
         },
         {
           "identifier": "quick_links_item2_link_text",
           "type": "text",
           "description": "Enter text",
           "label": "Item 2 Link Text",
-          "value": "Go to help page"
+          "value": "Learn more"
         },
         {
           "identifier": "quick_links_item2_link",
           "type": "text",
           "description": "Insert link",
           "label": "Item 2 Link",
+          "value": "#"
+        },
+        {
+          "identifier": "quick_links_item3_heading",
+          "type": "text",
+          "description": "Enter heading",
+          "label": "Item 3 Heading",
+          "value": "Grow with working capital"
+        },
+        {
+          "identifier": "quick_links_item3_text",
+          "type": "text",
+          "description": "Enter text",
+          "label": "Item 3 Text",
+          "value": "Learn about our powerful theming framework, designed to create beautiful and unique."
+        },
+        {
+          "identifier": "quick_links_item3_link_text",
+          "type": "text",
+          "description": "Enter text",
+          "label": "Item 3 Link Text",
+          "value": "Learn more"
+        },
+        {
+          "identifier": "quick_links_item3_link",
+          "type": "text",
+          "description": "Insert link",
+          "label": "Item 3 Link",
           "value": "#"
         }
       ]
