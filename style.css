@@ -1978,6 +1978,7 @@ ul {
   padding: 30px;
   gap: 40px;
   border-radius: 15px;
+  overflow: hidden;
 }
 
 .category-details__section > a {
@@ -1994,6 +1995,7 @@ ul {
   right: 0;
   top: 0;
   height: 100%;
+  z-index: -1;
 }
 
 .category-details__item ul {
