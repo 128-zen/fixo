@@ -1826,7 +1826,9 @@ ul {
 .quick-links__item {
   position: relative;
   width: calc(33.3% - 20px);
-  text-align: left;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
   align-items: center;
 }
 
@@ -1856,20 +1858,9 @@ ul {
   width: fit-content;
 }
 
-.quick-links__item > svg {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
-
-.quick-links__item > svg path, .category-details__section > svg path, .promoted-articles__item > svg path, .article-votes > svg path, .nav__list > svg path, .nav__articles > svg path, .featured-posts-item > svg path {
-  fill: $background_secondary_color;
-}
-
 .quick-links__item div svg path {
   stroke: $headings_primary;
 }
-
 
 .quick-links__item div:hover svg {
   transform: rotate(45deg);
