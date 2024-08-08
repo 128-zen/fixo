@@ -1447,7 +1447,6 @@ ul {
 }
 
 .hero__card {
-  position: relative;
   max-width: 370px;
   display: flex;
   flex-direction: column;
@@ -1456,22 +1455,27 @@ ul {
 
 .hero__card > div {
   position: relative;
+}
+
+.hero__card > div > div {
+  width: 100%;
+  position: relative;
   z-index: 6;
   padding: 20px 30px;
 }
 
-.hero__card > div svg {
+.hero__card > div > div svg {
   position: absolute;
   z-index: -1;
   top: 0;
   right: 0;
 }
 
-.hero__card > svg {
+.hero__card > div > svg {
   position: absolute;
 }
 
-.hero__card > svg {
+.hero__card > div > svg {
   display: none;
 }
 
