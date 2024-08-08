@@ -2726,8 +2726,6 @@ ul {
 
 .category-page__section-heading a {
   text-transform: capitalize; 
-  background-color: $secondary_button_color;
-  color: $headings_primary;
 }
 
 
@@ -2740,7 +2738,8 @@ ul {
 .category-page__article {
   padding: 30px;
   width: calc(33.3% - 20px);
-  background-color: $background_tertiary_color;
+  border-radius: 10px;
+  background-color: $background_secondary_color;
 }
 
 .category-page__article:nth-child(n+7) {
@@ -2773,6 +2772,13 @@ ul {
   bottom: 0;
   width: 100%;
   height: 100%;
+}
+
+.category-page__article > div:last-of-type div, .section-page__article > div:last-of-type div {
+  padding: 8px;
+  font-size: 0;
+  border-radius: 8px;
+  background-color: $primary_button_color;
 }
 
 .category-page__article > div:last-of-type svg path, .section-page__article > div:last-of-type svg path {
