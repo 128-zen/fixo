@@ -1260,6 +1260,7 @@ ul {
   }
   .footer__bottom p {
     text-align: center;
+    max-width: 80%;
   }
 }
 
@@ -1328,7 +1329,7 @@ ul {
 .search input[type=search],
 .search .clear-button {
   border: 1px solid $border_color;
-  background-color: $background_tertiary_color;
+  background-color: $body_background_color;
   border: none;
 }
 
@@ -1338,7 +1339,7 @@ ul {
   box-sizing: border-box;
   border-radius: 50px;
   border: 1px solid $border_color;
-  background-color: $background_tertiary_color;
+  background-color: $body_background_color;
   color: $body_primary;
   flex: 1 1 auto;
   font-size: 16px;
@@ -1562,7 +1563,7 @@ ul {
 }
 
 .hero .search input[type=search], .error-page .search input[type=search]{
-  padding: 15px 150px 15px 50px;
+  padding: 15px 50px;
   outline: none;
   color: $body_primary;
 }
