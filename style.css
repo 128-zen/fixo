@@ -1453,6 +1453,10 @@ ul {
   justify-content: center;
 }
 
+.hero__card h6 {
+  margin: 24px 0 18px;
+}
+
 .hero__card > div {
   position: relative;
 }
@@ -1462,6 +1466,20 @@ ul {
   position: relative;
   z-index: 6;
   padding: 20px 30px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.hero__card > div > div div {
+  display: flex;
+  gap: 30px;
+  align-items: end;
+}
+
+.hero__card > div > div div a {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid $border_color;
 }
 
 .hero__card > div > div svg {
@@ -1473,10 +1491,24 @@ ul {
 
 .hero__card > div > svg {
   position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
-.hero__card > div > svg {
-  display: none;
+.hero__card > div > svg:nth-last-of-type(1) {
+  top: -60px;
+}
+
+.hero__card > div > svg:nth-last-of-type(2) {
+  top: -30px;
+}
+
+.hero__card > div > svg:nth-last-of-type(3) {
+  bottom: -30px;
+}
+
+.hero__card > div > svg:nth-last-of-type(4) {
+  bottom: -60px;
 }
 
 @media (max-width: 1279px) {
