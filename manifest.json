@@ -1,7 +1,7 @@
 {
   "name": "Fixo 128",
   "author": "128zen",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -410,152 +410,46 @@
           "value": true
         },
         {
-          "identifier": "banner_background_color1",
-          "type": "color",
-          "description": "Choose the color 1 for background elements on the banner",
-          "label": "Background Elements Color 1",
-          "value": "#FCE8DB"
-        },
-        {
-          "identifier": "banner_background_color2",
-          "type": "color",
-          "description": "Choose the color 2 for background elements on the banner",
-          "label": "Background Elements Color 2",
-          "value": "#CEF5E8"
-        },
-        {
-          "identifier": "banner_background_color3",
-          "type": "color",
-          "description": "Choose the color 3 for background elements on the banner",
-          "label": "Background Elements Color 3",
-          "value": "#FBEED4"
-        },
-        {
-          "identifier": "banner_background_color4",
-          "type": "color",
-          "description": "Choose the color 4 for background elements on the banner",
-          "label": "Background Elements Color 4",
-          "value": "#E4EEFC"
-        }
-      ]
-    },
-    {
-      "label": "Homepage Introduction Section",
-      "variables": [
-        {
-          "identifier": "show_introduction_section",
+          "identifier": "show_hero_card",
           "type": "checkbox",
-          "description": "Show section",
-          "label": "Toggle Section",
+          "description": "Show hero card",
+          "label": "Toggle Card Component",
           "value": true
         },
         {
-          "identifier": "introduction_item1_img",
-          "type": "file",
-          "description": "Insert image",
-          "label": "Item 1 Image"
-        },
-        {
-          "identifier": "introduction_item1_heading",
+          "identifier": "hero_card_top_link_text",
           "type": "text",
-          "description": "Enter section heading",
-          "label": "Item 1 Heading",
-          "value": "Getting started"
+          "description": "Enter text",
+          "label": "Card Top Link Text",
+          "value": "New guide"
         },
         {
-          "identifier": "introduction_item1_link",
+          "identifier": "hero_card_top_link",
           "type": "text",
           "description": "Insert link",
-          "label": "Item 1 Link",
+          "label": "Card Top Link",
           "value": "#"
         },
         {
-          "identifier": "introduction_item1_subtitle",
+          "identifier": "hero_card_heading",
           "type": "text",
-          "description": "Enter section subtitle",
-          "label": "Item 1 Subtitle",
-          "value": "Discover everything you need to know to start your journey with our service"
+          "description": "Enter card heading",
+          "label": "Hero Card Heading",
+          "value": "Advanced Charting Tools"
         },
         {
-          "identifier": "introduction_item2_img",
-          "type": "file",
-          "description": "Insert image",
-          "label": "Item 2 Image"
-        },
-        {
-          "identifier": "introduction_item2_heading",
+          "identifier": "hero_card_subtitle",
           "type": "text",
-          "description": "Enter section heading",
-          "label": "Item 2 Heading",
-          "value": "Community"
+          "description": "Enter card subtitle",
+          "label": "Hero Card Subtitle",
+          "value": "Learn about our powerful theming framework, designed to create beautiful and unique."
         },
         {
-          "identifier": "introduction_item2_link",
+          "identifier": "hero_card_bottom_link",
           "type": "text",
           "description": "Insert link",
-          "label": "Item 2 Link",
+          "label": "Card Bottom Link",
           "value": "#"
-        },
-        {
-          "identifier": "introduction_item2_subtitle",
-          "type": "text",
-          "description": "Enter section subtitle",
-          "label": "Item 2 Subtitle",
-          "value": "Discover everything you need to know to start your journey with our service"
-        },
-        {
-          "identifier": "introduction_item3_img",
-          "type": "file",
-          "description": "Insert image",
-          "label": "Item 3 Image"
-        },
-        {
-          "identifier": "introduction_item3_heading",
-          "type": "text",
-          "description": "Enter section heading",
-          "label": "Item 3 Heading",
-          "value": "Submit a request"
-        },
-        {
-          "identifier": "introduction_item3_link",
-          "type": "text",
-          "description": "Insert link",
-          "label": "Item 3 Link",
-          "value": "#"
-        },
-        {
-          "identifier": "introduction_item3_subtitle",
-          "type": "text",
-          "description": "Enter section subtitle",
-          "label": "Item 3 Subtitle",
-          "value": "Discover everything you need to know to start your journey with our service"
-        },
-        {
-          "identifier": "introduction_item4_img",
-          "type": "file",
-          "description": "Insert image",
-          "label": "Item 4 Image"
-        },
-        {
-          "identifier": "introduction_item4_heading",
-          "type": "text",
-          "description": "Enter section heading",
-          "label": "Item 4 Heading",
-          "value": "Features"
-        },
-        {
-          "identifier": "introduction_item4_link",
-          "type": "text",
-          "description": "Insert link",
-          "label": "Item 4 Link",
-          "value": "#"
-        },
-        {
-          "identifier": "introduction_item4_subtitle",
-          "type": "text",
-          "description": "Enter section subtitle",
-          "label": "Item 4 Subtitle",
-          "value": "Discover everything you need to know to start your journey with our service"
         }
       ]
     },
