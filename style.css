@@ -1432,9 +1432,6 @@ ul {
   justify-content: center;
   padding-top: 188px;
   gap: 90px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .hero__content {
@@ -1452,6 +1449,9 @@ ul {
 .hero__card {
   position: relative;
   max-width: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .hero__card > div {
@@ -1461,10 +1461,13 @@ ul {
 }
 
 .hero__card > div svg {
+  position: absolute;
   z-index: -1;
+  top: 0;
+  right: 0;
 }
 
-.hero__card svg {
+.hero__card > svg {
   position: absolute;
 }
 
