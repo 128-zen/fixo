@@ -1096,6 +1096,11 @@ ul {
   top: 0;
   height: auto;
   width: 100%;
+  z-index: 3;
+}
+
+.submit-request .container > div svg path {
+  fill: $background_primary_color;
 }
 
 .submit-request .container > svg {
@@ -1106,13 +1111,18 @@ ul {
   top: -30px;
   transform: translateX(-50%);
   width: 98%;
+  z-index: 2;
 }
 
 .submit-request .container > svg:last-of-type {
-  top: -50px;
+  top: -60px;
   width: 96%;
+  z-index: 1;
 }
 
+.submit-request .container > svg path {
+  fill: $primary_button_color;
+}
 
 .submit-request h2 {
   margin-bottom: 20px;
@@ -1849,7 +1859,7 @@ ul {
 }
 
 .quick-links__item svg rect:last-of-type {
-  stroke: $background_primary_color;
+  stroke: $primary_button_color;
 }
 
 .quick-links__item div a {
@@ -2039,7 +2049,7 @@ ul {
   position: relative;
   width: calc(33.3% - 20px);
   padding: 30px;
-  background-color: $background_primary_color;
+  background-color: $primary_button_color;
 }
 
 .promoted-articles__item:nth-child(n+7) {
@@ -2132,7 +2142,7 @@ ul {
   position: relative;
   padding: 15px;
   border-radius: 10px;
-  border: 1px solid $background_primary_color;
+  border: 1px solid $primary_button_color;
   background-color: $background_tertiary_color;
   transition: all .3s ease;
 }
@@ -2508,7 +2518,7 @@ ul {
   font-weight: 400;
   line-height: normal;
   padding: 5px 10px;
-  background-color: $background_primary_color;
+  background-color: $primary_button_color;
   color: $headings_primary;
 }
 
@@ -2618,7 +2628,7 @@ ul {
 
 /***** Category pages *****/
 .category-page .hero {
-  background-color: $background_primary_color;
+  background-color: $primary_button_color;
 }
 
 .category-page .hero .container {
@@ -2835,7 +2845,7 @@ ul {
 .nav__list, .nav__articles {
   position: relative;
   padding: 20px 30px 30px;
-  background-color: $background_primary_color;
+  background-color: $primary_button_color;
 }
 
 .nav__list > svg, .nav__articles > svg {
@@ -4038,7 +4048,7 @@ ul {
 .featured-posts-item {
   position: relative;
   padding: 30px;
-  background: $background_primary_color;
+  background: $primary_button_color;
   width: calc(33.3% - 20px);
 }
 
@@ -4369,7 +4379,7 @@ ul {
 /***** Status labels *****/
 /* Styles labels used in posts, articles and requests */
 .status-label {
-  background-color: $background_primary_color;
+  background-color: $primary_button_color;
   border-radius: 8px;
   color: $headings_primary;
   font-size: 14px;
@@ -6144,7 +6154,7 @@ ul {
   border-radius: 50%;
   background-size: 14px 14px;
   background-repeat: no-repeat;
-  background-color: $background_primary_color;
+  background-color: $primary_button_color;
   background-position: 50% 50%;
   text-align: center;
   color: #ccc;
@@ -6459,7 +6469,7 @@ ul {
 }
 .search-result-description em {
   padding: 0 3px;
-  background-color: $background_primary_color;
+  background-color: $primary_button_color;
   color: $headings_primary;
 }
 .search-result-bottom {
@@ -6809,21 +6819,21 @@ html[dir=rtl] .notification-left-aligned {
 /***** Last Section on the homepage *****/
 
 .last-section {
-  padding-bottom: 360px;
+  padding-bottom: 420px;
 }
 @media (max-width: 1279px) {
   .last-section {
-    padding-bottom: 340px;
+    padding-bottom: 400px;
   }
 }
 @media (max-width: 1023px) {
   .last-section {
-    padding-bottom: 320px;
+    padding-bottom: 380px;
   }
 }
 @media (max-width: 767px) {
   .last-section {
-    padding-bottom: 300px;
+    padding-bottom: 360px;
   }
 }
 

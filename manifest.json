@@ -1,7 +1,7 @@
 {
   "name": "Fixo 128",
   "author": "128zen",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -34,7 +34,7 @@
           "type": "color",
           "description": "Choose primary background color",
           "label": "Background Primary Color",
-          "value": "#9FC9FF"
+          "value": "#B4D5FF"
         },
         {
           "identifier": "background_secondary_color",
