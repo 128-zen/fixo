@@ -416,10 +416,11 @@ ul {
   margin: 0;
   text-align: center;
   transition: all .3s ease;
-  padding: 14px 34px;
-  background-color: $secondary_button_color;
+  border-radius: 50px;
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 1px solid $headings_primary;
   color: $headings_primary;
-  border: 1px solid $primary_button_color;
   user-select: none;
   white-space: nowrap;
   -webkit-touch-callout: none;
@@ -436,8 +437,8 @@ ul {
 
 
 .article-subscribe button:hover, .community-follow button:hover, .subscriptions-subscribe button:hover, .section-subscribe button:hover, .split-button button:hover {
-  background-color: $secondary_button_color;
-  border: 1px solid $secondary_button_color;
+  background-color: $primary_button_color;
+  border: 1px solid $primary_button_color;
   color: $headings_primary;
 }
 
@@ -2841,7 +2842,7 @@ ul {
 /***** Section pages *****/
 .section-page {
   padding-top: 80px;
-  padding-bottom: 360px;
+  padding-bottom: 420px;
 }
 
 .section-page>.container {
@@ -2886,13 +2887,8 @@ ul {
 .nav__list, .nav__articles {
   position: relative;
   padding: 20px 30px 30px;
-  background-color: $primary_button_color;
-}
-
-.nav__list > svg, .nav__articles > svg {
-  position: absolute;
-  right: 0;
-  bottom: 0;
+  border-radius: 10px;
+  background-color: $background_tertiary_color;
 }
 
 .nav__category {
@@ -2946,7 +2942,6 @@ ul {
 .nav__sections a {
   display: inline;
   margin-bottom: 15px;
-  color: $body_primary;
 }
 
 .nav__sections a:hover {
@@ -2954,7 +2949,7 @@ ul {
 }
 
 .nav__sections a.active {
-  color: $hover_link_color;
+  color: $headings_primary;
   font-weight: 700;
 }
 
@@ -3008,13 +3003,13 @@ ul {
 
 @media (max-width: 1279px) {
   .section-page {
-    padding-bottom: 340px;
+    padding-bottom: 400px;
   }
 }
 
 @media (max-width: 1023px) {
   .section-page {
-    padding-bottom: 320px;
+    padding-bottom: 380px;
   }
   .section-page__content {
     width: 60%;
@@ -3036,7 +3031,7 @@ ul {
 @media (max-width: 767px) {
   .section-page {
     padding-top: 60px;
-    padding-bottom: 300px;
+    padding-bottom: 360px;
   }
   .section-page>.container {
     flex-direction: column-reverse;
