@@ -4231,7 +4231,7 @@ ul {
 /* Community topic page */
 .topic-page {
   padding-top: 80px;
-  padding-bottom: 360px;
+  padding-bottom: 420px;
 }
 .topic-header {
   font-size: 13px;
@@ -4322,6 +4322,10 @@ ul {
   background-color: $body_background_color;
 } 
 
+.topic-page .posts-item {
+  background-color: $background_tertiary_color;
+}
+
 .striped-list-title {
   display: block;
   margin-right: 5px;
@@ -4388,13 +4392,13 @@ ul {
     padding-top: 100px;
   }
   .topic-page {
-    padding-bottom: 340px;
+    padding-bottom: 400px;
   }
 }
 
 @media (max-width: 1023px) {
   .topic-page {
-    padding-bottom: 320px;
+    padding-bottom: 380px;
   }
   .post-list-page .community-featured-posts, .community-page .community-featured-posts {
   padding-top: 80px;
@@ -4412,7 +4416,7 @@ ul {
   }
   .topic-page {
     padding-top: 60px;
-    padding-bottom: 300px;
+    padding-bottom: 360px;
   }
   .post-list-page .posts {
     padding-top: 60px;
