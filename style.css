@@ -369,8 +369,8 @@ textarea {
   outline: none;
   padding: 18px;
   height: 140px;
+  border-radius: 10px;
   border: 1px solid $border_color;
-  background-color: $background_tertiary_color;
 }
 
 .container {
@@ -445,12 +445,12 @@ ul {
 .comment-form-controls input[type=submit] {
   background-color: $primary_button_color;
   border: 1px solid $primary_button_color;
-  color: $light_text_color;
+  color: $headings_primary;
 }
 
 .comment-form-controls input[type=submit]:hover {
-  background-color: $secondary_button_color;
-  border: 1px solid $secondary_button_color;
+  background-color: transparent;
+  border: 1px solid $headings_primary;
   color: $headings_primary;
 }
 
@@ -3065,7 +3065,7 @@ ul {
 /***** Article page *****/
 .article-page {
   padding-top: 80px;
-  padding-bottom: 360px;
+  padding-bottom: 420px;
 }
 
 .article-page>.container {
@@ -3090,7 +3090,7 @@ ul {
 }
 
 .nav__articles .current-article {
-  color: $hover_link_color;
+  color: $headings_primary;
   font-weight: 700;
 }
 
@@ -3351,7 +3351,7 @@ ul {
   display: flex;
   justify-content: end;
   padding-top: 30px;
-  border-top: 1px solid $background_secondary_color;
+  border-top: 1px solid $border_color;
 }
 .article-comment-count {
   color: lighten($text_color, 20%);
@@ -3422,6 +3422,14 @@ ul {
   background: $background_secondary_color;
 }
 
+.article-votes h3, .article-votes p, .article-votes a {
+  color: $light_text_color;
+}
+
+.article-votes a:hover {
+  color: $hover_link_color;
+}
+
 .article-votes > svg {
   position: absolute;
   right: 0;
@@ -3437,13 +3445,14 @@ ul {
   line-height: 1;
   cursor: pointer;
   border: none;
-  background-color: $primary_button_color;
+  border-radius: 6px;
+  background-color: $body_background_colors;
 }
 .article-vote path {
-  fill: $light_text_color;
+  fill: $headings_primary;
 }
 .article-vote:hover {
-  background-color: $secondary_button_color;
+  background-color: $primary_button_color;
 }
 .article-vote:hover path {
   fill: $headings_primary;
@@ -3544,13 +3553,13 @@ ul {
 
 @media (max-width: 1279px) {
   .article-page {
-    padding-bottom: 340px;
+    padding-bottom: 400px;
   }
 }
 
 @media (max-width: 1023px) {
   .article-page {
-    padding-bottom: 320px;
+    padding-bottom: 380px;
   }
   .article-container {
     width: 60%;
@@ -3560,7 +3569,7 @@ ul {
 
 @media (max-width: 767px) {
   .article-page {
-    padding-bottom: 300px;
+    padding-bottom: 360px;
     padding-top: 60px;
   }
   .article-page>.container {
