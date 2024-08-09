@@ -2784,15 +2784,15 @@ ul {
   transform: rotate(45deg);
 }
 
-.category-page__article p {
+.category-page__article p, .section-page__article p {
   color: $body_secondary;
 }
 
-.category-page__article a, .category-page__article > div:last-of-type, .section-page__article > div:last-of-type, .featured-posts-btn {
+.category-page__article a, .category-page__article > div:last-of-type, .section-page__article > div:last-of-type, .featured-posts-btn, .section-page__article a {
   color: $light_text_color;
 }
 
-.category-page__article a:hover {
+.category-page__article a:hover, .section-page__article a:hover {
   color: $hover_link_color;
 }
 
