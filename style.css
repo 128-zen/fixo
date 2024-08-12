@@ -2489,7 +2489,7 @@ ul {
 
 /***** Submit a request page *****/
 .submit-request-page, .new-post-page {
-  padding: 80px 0 360px;
+  padding: 80px 0 420px;
   position: relative;
   overflow: hidden;
 }
@@ -2525,20 +2525,20 @@ ul {
 
 @media(max-width: 1279px) {
   .submit-request-page, .new-post-page {
-    padding-bottom: 340px;
+    padding-bottom: 400px;
   }
 }
 
 @media(max-width: 1023px) {
   .submit-request-page, .new-post-page {
-    padding-bottom: 320px;
+    padding-bottom: 380px;
   }
 }
 
 @media(max-width: 767px) {
   .submit-request-page, .new-post-page {
     padding-top: 60px;
-    padding-bottom: 300px;
+    padding-bottom: 360px;
   }
   .submit-request-page .container, .new-post-page .container {
     gap: 30px;
