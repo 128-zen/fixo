@@ -1153,6 +1153,22 @@ ul {
   }
 }
 
+.footer {
+  position: relative;
+}
+
+.footer > svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.footer > svg {
+  position: absolute;
+  right: 0;
+  left: auto;
+}
 
 .footer__top {
   display: flex;
@@ -3673,8 +3689,9 @@ ul {
 /***** Comments *****/
 /* Styles comments inside articles, posts and requests */
 .comment {
-  padding: 30px;
+  padding-bottom: 30px;
   margin-bottom: 30px;
+  border-bottom: 1px solid $border_color;
 }
 .comment:last-of-type {
   margin-bottom: 0;
