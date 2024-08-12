@@ -61,7 +61,7 @@ a:hover {
   color: $hover_link_color;
 }
 
-path, svg, button, g, circle, rect {
+path, svg, button, g, circle, rect, ellipse {
   transition: all .3s ease;
 }
 
@@ -1170,6 +1170,10 @@ ul {
   left: auto;
 }
 
+.footer > svg ellipse {
+  fill: $primary_button_color;
+}
+
 .footer__top {
   display: flex;
   justify-content: space-between;
@@ -1447,6 +1451,27 @@ ul {
   overflow: hidden;
   position: relative;
 }
+
+.hero > svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.hero > svg:nth-of-type(2) {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.hero > svg:nth-of-type(3) {
+  left: auto;
+  right: 0;
+}
+
+.hero > svg ellipse {
+  fill: $primary_button_color;
+}
+
 .hero .container {
   display: flex;
   justify-content: center;
@@ -1964,6 +1989,19 @@ ul {
 }
 
 /* Category Details */
+.category-details {
+  position: relative;
+}
+
+.category-details > svg {
+  position: absolute;
+  left: 0;
+  bottom: -150px;
+}
+
+.category-details > svg ellipse {
+  fill: $primary_button_color;
+}
 
 .category-details .container {
   display: flex;
@@ -2296,6 +2334,19 @@ ul {
 }
 
 /* FAQ */
+.faq {
+  position: relative;
+}
+
+.faq > svg {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.faq > svg ellipse {
+  fill: $primary_button_color;
+}
 
 .faq .container h2 {
   text-align: center;
