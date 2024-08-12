@@ -1579,11 +1579,23 @@ ul {
 @media (max-width: 1023px) {
   .hero .container {
     padding-top: 168px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 140px;
+    gap: 120px;
+  }
+  .hero__content {
+    align-items: center;
+    text-align: center;
   }
 }
 @media (max-width: 767px) {
+  .hero {
+    overflow: hidden;
+  }
   .hero .container {
     padding-top: 148px;
+    padding-bottom: 120px;
   }
   .hero__content {
     max-width: 595px;
@@ -2548,7 +2560,7 @@ ul {
 .error-page {
   text-align: center;
   padding-top: 60px;
-  padding-bottom: 360px;
+  padding-bottom: 420px;
   flex-grow: 1;
 }
 .error-page .container {
@@ -2582,12 +2594,12 @@ ul {
 
 @media (max-width: 1023px) {
   .error-page {
-    padding-bottom: 320px;
+    padding-bottom: 380px;
   }
 }
 @media (max-width: 767px) {
   .error-page {
-    padding-bottom: 300px;
+    padding-bottom: 360px;
   }
   .error-page h1 {
     font-size: 90px;
