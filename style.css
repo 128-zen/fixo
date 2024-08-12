@@ -635,15 +635,16 @@ ul {
   font-weight: 400;
   line-height: 120%; /* 21.6px */
   letter-spacing: 0.63px;
-  padding: 14px 34px;
+  padding: 10px 30px;
+  border-radius: 50px;
   cursor: pointer;
   background-color: $primary_button_color;
   border: 1px solid $primary_button_color;
-  color: $light_text_color;
+  color: $headings_primary;
 }
 .form footer input:hover {
-  background-color: $secondary_button_color;
-  border: 1px solid $secondary_button_color;
+  background-color: transparent;
+  border: 1px solid $headings_primary;
   color: $headings_primary;
 }
 
@@ -1456,6 +1457,7 @@ ul {
   position: absolute;
   left: 0;
   top: 0;
+  z-index: -1;
 }
 
 .hero > svg:nth-of-type(2) {
@@ -1996,7 +1998,8 @@ ul {
 .category-details > svg {
   position: absolute;
   left: 0;
-  bottom: -150px;
+  bottom: -100px;
+  z-index: -1;
 }
 
 .category-details > svg ellipse {
@@ -2342,6 +2345,7 @@ ul {
   position: absolute;
   right: 0;
   top: 0;
+  z-index: -1;
 }
 
 .faq > svg ellipse {
@@ -2756,11 +2760,6 @@ ul {
   max-width: 645px;
 }
 
-.category-page .hero > svg {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
 
 .category-page__content>h2 {
   text-align: center;
@@ -2867,11 +2866,6 @@ ul {
   color: $hover_link_color;
 }
 
-@media(min-width: 1440px) {
-  .category-page .hero > svg {
-    width: 100%;
-  }
-}
 
 @media(max-width: 1023px) {
   .category-page__section-heading {
