@@ -1449,7 +1449,6 @@ ul {
 /***** Hero component *****/
 .hero {
   margin-top: -88px;
-  overflow: hidden;
   position: relative;
 }
 
@@ -6337,7 +6336,7 @@ ul {
 
 .search-results-page .container {
   padding-top: 80px;
-  padding-bottom: 360px;
+  padding-bottom: 420px;
   display: flex;
   gap: 50px;
 }
@@ -6543,12 +6542,12 @@ ul {
 }
 @media (max-width: 1279px) {
   .search-results-page .container {
-    padding-bottom: 340px;
+    padding-bottom: 400px;
   }
 }
 @media (max-width: 1023px) {
   .search-results-page .container {
-    padding-bottom: 320px;
+    padding-bottom: 380px;
     gap: 30px;
     flex-direction: column-reverse;
   }
@@ -6565,7 +6564,7 @@ ul {
 @media (max-width: 767px) {
   .search-results-page .container {
     padding-top: 60px;
-    padding-bottom: 300px;
+    padding-bottom: 360px;
   }
   .search-results-sidebar {
     max-width: none;
