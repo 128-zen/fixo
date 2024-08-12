@@ -5201,7 +5201,7 @@ ul {
   width: 100%;
 }
 .requests {
-  margin-bottom: 360px;
+  margin-bottom: 420px;
 }
 .requests-table-toolbar {
   display: flex;
@@ -5214,17 +5214,17 @@ ul {
 }
 @media (max-width: 1279px) {
   .requests {
-    margin-bottom: 340px;
+    margin-bottom: 400px;
   }
 }
 @media (max-width: 1023px) {
   .requests {
-    margin-bottom: 320px;
+    margin-bottom: 380px;
   }
 }
 @media (max-width: 767px) {
   .requests {
-    margin-bottom: 300px;
+    margin-bottom: 360px;
   }
 }
 @media (min-width: 768px) {
