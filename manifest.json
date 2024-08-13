@@ -1,7 +1,7 @@
 {
   "name": "Fixo 128",
   "author": "128zen",
-  "version": "1.0.43",
+  "version": "1.0.44",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -51,17 +51,17 @@
           "value": "#F5FAFF"
         },
         {
-          "identifier": "headings_primary",
+          "identifier": "text_primary",
           "type": "color",
-          "description": "Choose heading primary color",
-          "label": "Heading Primary Color",
+          "description": "Choose primary text color",
+          "label": "Primary Text Color",
           "value": "#26282C"
         },
         {
-          "identifier": "light_text_color",
+          "identifier": "text_secondary",
           "type": "color",
-          "description": "Choose light text color",
-          "label": "Light Text Color",
+          "description": "Choose secondary text color",
+          "label": "Secondary Text Color",
           "value": "#fff"
         },
         {
@@ -72,10 +72,17 @@
           "value": "#9FC9FF"
         },
         {
+          "identifier": "primary_button_text_color",
+          "type": "color",
+          "description": "Choose primary button text color",
+          "label": "Primary Button Text Color",
+          "value": "#26282C"
+        },
+        {
           "identifier": "hover_link_color",
           "type": "color",
-          "description": "Choose the primary color for the hover state of the links",
-          "label": "Hover Link Primary Color",
+          "description": "Choose color for the hover state of the links",
+          "label": "Hover Link Color",
           "value": "#9FC9FF"
         },
         {
