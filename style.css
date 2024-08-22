@@ -2035,7 +2035,7 @@ ul {
   gap: 30px;
 }
 
-.category-details__sections {
+.category-details__sections, .category-details__list {
   margin-top: 60px;
   display: flex;
   gap: 30px;
@@ -2058,11 +2058,11 @@ ul {
   color: $text_secondary;
 }
 
-.category-details__item li a {
+.category-details__section li a {
   color: $body_secondary;
 }
 
-.category-details__section > div a:hover, .category-details__item li a:hover {
+.category-details__section > div a:hover, .category-details__section li a:hover {
   color: $hover_link_color;
 }
 
@@ -2071,8 +2071,12 @@ ul {
   background-color: $body_background_color;
 }
 
-.category-details__section:nth-child(n+4) {
+.category-details__section:nth-child(n+7) {
   display: none;
+}
+
+.category-details__list .category-details__section:nth-child(n+7) {
+  display: flex;
 }
 
 .category-details__section > svg {
@@ -2088,11 +2092,11 @@ ul {
   fill: $background_secondary_color;
 }
 
-.category-details__item ul {
+.category-details__section ul {
   margin-top: 30px;
 }
 
-.category-details__item li {
+.category-details__section li {
   display: flex;
   gap: 15px;
   align-items: center;
@@ -2100,25 +2104,28 @@ ul {
   color: $body_primary;
 }
 
-.category-details__item li svg {
+.category-details__section li svg {
   flex: 0 0 auto;
 }
 
-.category-details__item li svg path {
+.category-details__section li svg path {
   fill: $hover_link_color;
 }
 
-.category-details__item li:nth-child(3) {
+.category-details__section li:nth-child(3) {
   margin-bottom: 0;
 }
 
-.category-details__item li:nth-child(n+4) {
+.category-details__section li:nth-child(n+4) {
   display: none;
 }
 
 @media (max-width: 1023px) {
   .category-details__sections {
     margin-top: 40px;
+    justify-content: center;
+  }
+  .category-details__list {
     justify-content: center;
   }
   .category-details__section {
@@ -2131,7 +2138,7 @@ ul {
     flex-direction: column;
     gap: 20px;
   }
-  .category-details__sections {
+  .category-details__sections, .category-details__list {
     gap: 20px;
   }
   .category-details__section {
@@ -2142,7 +2149,7 @@ ul {
     height: auto;
     width: 100%;
   }
-  .category-details__item ul {
+  .category-details__section ul {
     margin-top: 20px;
   }
 }

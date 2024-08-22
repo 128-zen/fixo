@@ -154,7 +154,7 @@
 {{/if}}
 
 
-{{#if settings.show_category_details_section}}
+{{#if settings.show_category1_section}}
 {{!-- Categories Section --}}
 <section class="category-details section">
   <div class="container">
@@ -215,6 +215,50 @@
       </filter>
     </defs>
   </svg>
+</section>
+{{/if}}
+
+{{#if settings.show_category2_section}}
+{{!-- Categories Section --}}
+<section class="category-details section">
+  <div class="container">
+    <div class="category-details__list">
+      {{#each categories}}
+        <div class="category-details__section fade-in-up">
+          <div>
+            <h6><a href="{{url}}">{{name}}</a></h6>
+            <ul>
+              {{#each sections}}
+                {{#each articles}}
+                <li>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20" fill="none">
+                    <path d="M13.3906 5.85938C12.6368 5.85938 12.0234 5.24605 12.0234 4.49219V0H5.03125C3.8466 0 2.88281 0.963789 2.88281 2.14844V17.8516C2.88281 19.0362 3.8466 20 5.03125 20H15.9688C17.1534 20 18.1172 19.0362 18.1172 17.8516V5.85938H13.3906ZM6.08594 14.0625H8.92656C9.25016 14.0625 9.5125 14.3248 9.5125 14.6484C9.5125 14.972 9.25016 15.2344 8.92656 15.2344H6.08594C5.76234 15.2344 5.5 14.972 5.5 14.6484C5.5 14.3248 5.76234 14.0625 6.08594 14.0625ZM5.5 11.5234C5.5 11.1998 5.76234 10.9375 6.08594 10.9375H14.6797C15.0033 10.9375 15.2656 11.1998 15.2656 11.5234C15.2656 11.847 15.0033 12.1094 14.6797 12.1094H6.08594C5.76234 12.1094 5.5 11.847 5.5 11.5234ZM14.6797 7.8125C15.0033 7.8125 15.2656 8.07484 15.2656 8.39844C15.2656 8.72203 15.0033 8.98438 14.6797 8.98438H6.08594C5.76234 8.98438 5.5 8.72203 5.5 8.39844C5.5 8.07484 5.76234 7.8125 6.08594 7.8125H14.6797Z" fill="#B9E97D"/>
+                    <path d="M13.1953 4.49219C13.1953 4.59989 13.2829 4.6875 13.3906 4.6875H17.856C17.7488 4.48961 17.6109 4.30785 17.4453 4.1511L13.6788 0.587738C13.5326 0.449457 13.3698 0.334105 13.1954 0.243011V4.49219H13.1953Z" fill="#B9E97D"/>
+                  </svg>
+                  <a href="{{url}}">{{title}}</a>
+                </li>
+                {{/each}}
+              {{/each}}
+            </ul>
+          </div>
+          <a class="button button-secondary" href="{{url}}">{{t 'see_all_sections'}}</a>
+          <svg xmlns="http://www.w3.org/2000/svg" width="547" height="535" viewBox="0 0 347 335" fill="none">
+            <g filter="url(#filter0_b_27317_336)">
+              <path d="M9.63801 334.973H337.735C342.668 334.973 346.667 330.974 346.667 326.041L346.667 64.1164C346.667 59.3787 344.785 54.835 341.435 51.4849L295.182 5.23214C291.832 1.88206 287.288 0 282.55 0H9.63815C4.70524 0 0.706332 3.99892 0.70633 8.93183L0.706181 326.041C0.706177 330.974 4.7051 334.973 9.63801 334.973Z" fill="#26282C"/>
+            </g>
+            <defs>
+              <filter id="filter0_b_27317_336" x="-70.7484" y="-71.4545" width="488.87" height="477.882" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                <feGaussianBlur in="BackgroundImageFix" stdDeviation="35.7273"/>
+                <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_27317_336"/>
+                <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_27317_336" result="shape"/>
+              </filter>
+            </defs>
+          </svg>
+        </div>
+      {{/each}}
+    </div>
+  </div>
 </section>
 {{/if}}
 
