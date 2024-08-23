@@ -170,7 +170,7 @@
           {{#each sections}}
             <div class="category-details__section fade-in-up">
               <div>
-                <h6><a href="{{url}}">{{name}}</a></h6>
+                <h5><a href="{{url}}">{{name}}</a></h5>
                 <ul>
                   {{#each articles}}
                   <li>
@@ -220,13 +220,21 @@
 
 {{#if settings.show_category2_section}}
 {{!-- Categories Section --}}
-<section class="category-details section">
+<section class="category-details categories-layout2 section">
   <div class="container">
+    {{#if settings.show_category2_header}}
+      <div class="category-details__header">
+        <h2>{{settings.category2_heading}}</h2>
+        {{#if settings.show_category2_subtitle}}
+          <p>{{settings.category2_subtitle}}</p>
+        {{/if}}
+      </div>
+    {{/if}}
     <div class="category-details__list">
       {{#each categories}}
         <div class="category-details__section fade-in-up">
           <div>
-            <h6><a href="{{url}}">{{name}}</a></h6>
+            <h5><a href="{{url}}">{{name}}</a></h5>
             <ul>
               {{#each sections}}
                 {{#each articles}}
