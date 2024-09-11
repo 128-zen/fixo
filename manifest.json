@@ -618,25 +618,6 @@
       ]
     },
     {
-      "label": "Homepage Promoted Articles Section",
-      "variables": [
-        {
-          "identifier": "show_promoted_articles_section",
-          "type": "checkbox",
-          "description": "Show section",
-          "label": "Toggle Section",
-          "value": true
-        },
-        {
-          "identifier": "promoted_articles_heading",
-          "type": "text",
-          "description": "Enter section heading",
-          "label": "Section Heading",
-          "value": "Promoted articles"
-        }
-      ]
-    },
-    {
       "label": "Homepage Videos Section",
       "variables": [
         {
