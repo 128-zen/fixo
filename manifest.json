@@ -1,7 +1,7 @@
 {
   "name": "Fixo 128",
   "author": "128zen",
-  "version": "1.0.47",
+  "version": "1.0.48",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -427,14 +427,14 @@
           "identifier": "hero_card_top_link_text",
           "type": "text",
           "description": "Enter text",
-          "label": "Card Top Link Text",
+          "label": "Card Label Text",
           "value": "New guide"
         },
         {
           "identifier": "hero_card_top_link",
           "type": "text",
           "description": "Insert link",
-          "label": "Card Top Link",
+          "label": "Card Link",
           "value": "#"
         },
         {
@@ -450,13 +450,6 @@
           "description": "Enter card subtitle",
           "label": "Hero Card Subtitle",
           "value": "Learn about our powerful theming framework, designed to create beautiful and unique."
-        },
-        {
-          "identifier": "hero_card_bottom_link",
-          "type": "text",
-          "description": "Insert link",
-          "label": "Card Bottom Link",
-          "value": "#"
         }
       ]
     },

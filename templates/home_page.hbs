@@ -24,11 +24,11 @@
       <div class="hero__card">
         <div>
           <div>
-            <a class="button button-tertiary" href="{{settings.hero_card_top_link}}">{{settings.hero_card_top_link_text}}</a>
-            <h6>{{settings.hero_card_heading}}</h6>
+            <p>{{settings.hero_card_top_link_text}}</p>
+            <h6><a href="{{settings.hero_card_top_link}}">{{settings.hero_card_heading}}</a></h6>
             <div>
               <p>{{settings.hero_card_subtitle}}</p>
-              <a href="{{settings.hero_card_bottom_link}}">
+              <a href="{{settings.hero_card_top_link}}">
                 <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 13 13" fill="none">
                   <path d="M12.1569 0.843134V12.1568M12.1569 12.1568H0.843146M12.1569 12.1568L0.843146 0.843134" stroke="#26282C"/>
                 </svg>
@@ -200,6 +200,9 @@
             </div>
           {{/each}}
         </div>
+        <div class="mobile-button fade-in-up">
+          <a class="button button-secondary" href="{{url}}">{{t 'see_all_sections'}}</a>
+        </div>
       </div>
     {{/each}}
   </div>
@@ -276,7 +279,9 @@
   <div class="container">
     <div class="videos__head">
       <h2 class="fade-in-up">{{settings.videos_heading}}</h2>
-      <a class="button button-secondary" href="{{settings.videos_button_link}}" target="_blank">{{settings.videos_button}}</a>
+      <div class="fade-in-up">
+        <a class="button button-secondary" href="{{settings.videos_button_link}}" target="_blank">{{settings.videos_button}}</a>
+      </div>
     </div>
     <div class="videos__list">
       <div class="videos__item fade-in-up">
@@ -312,6 +317,9 @@
         <h4>{{settings.videos_heading3}}</h4>
         <p>{{settings.videos_description3}}</p>
       </div>
+    </div>
+    <div class="mobile-button fade-in-up">
+      <a class="button button-secondary" href="{{settings.videos_button_link}}" target="_blank">{{settings.videos_button}}</a>
     </div>
   </div>
 
