@@ -724,6 +724,7 @@ ul {
 }
 .logo span {
   margin: 0 10px;
+  flex: 0 0 auto;
   color: $brand_color;
 }
 
@@ -1483,8 +1484,20 @@ ul {
   right: 0;
 }
 
-.hero > svg ellipse {
+.hero > svg ellipse, .hero > svg path {
   fill: $primary_button_color;
+}
+
+.hero > svg:first-of-type ellipse {
+  fill: url(#paint0_radial_27306_10657);
+}
+
+.category-page .hero > svg:first-of-type ellipse {
+  fill: url(#paint0_radial_27406_1975);
+}
+
+.hero > svg:first-of-type stop {
+  stop-color: $primary_button_color;
 }
 
 .hero .container {
