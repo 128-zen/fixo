@@ -1,7 +1,7 @@
 {
   "name": "Fixo 128",
   "author": "128zen",
-  "version": "1.0.51",
+  "version": "1.0.52",
   "api_version": 3,
   "default_locale": "en-us",
   "settings": [
@@ -1098,6 +1098,13 @@
           "description": "Insert link",
           "label": "Footer Link",
           "value": "#"
+        },
+        {
+          "identifier": "footer_background_gradient",
+          "type": "color",
+          "description": "Choose footer background gradient color",
+          "label": "Footer Background Gradient Color",
+          "value": "rgba(187, 245, 217, 0.25)"
         },
         {
           "identifier": "footer_description",

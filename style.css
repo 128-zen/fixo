@@ -1180,6 +1180,10 @@ ul {
   z-index: -1;
 }
 
+.footer-block {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, $footer_background_gradient 100%);
+}
+
 .footer > svg:last-of-type {
   position: absolute;
   right: 0;
@@ -1487,18 +1491,6 @@ ul {
 
 .hero > svg ellipse, .hero > svg path {
   fill: $primary_button_color;
-}
-
-.hero > svg:first-of-type ellipse {
-  fill: url(#paint0_radial_27306_10657);
-}
-
-.category-page .hero > svg:first-of-type ellipse {
-  fill: url(#paint0_radial_27406_1975);
-}
-
-.hero > svg:first-of-type stop {
-  stop-color: $primary_button_color;
 }
 
 .hero .container {
@@ -2442,7 +2434,7 @@ ul {
   z-index: -1;
 }
 
-.faq > svg ellipse {
+.faq > svg path {
   fill: $primary_button_color;
 }
 
